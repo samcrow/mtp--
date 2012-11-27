@@ -1,0 +1,8 @@
+
+mtp++.pro.user
+
+*.dylib
+
+*.o
+
+.DS_Store
