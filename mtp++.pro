@@ -9,7 +9,7 @@ TEMPLATE = lib
 CONFIG -= qt # Disable Qt libraries
 
 INCLUDEPATH += /opt/local/include
-LIBS += -L/opt/local/lib -lmtp
+LIBS += -L/opt/local/lib -lmtp -lboost_thread-mt -lboost_system-mt
 
 SOURCES += mtpdevice.cpp
 

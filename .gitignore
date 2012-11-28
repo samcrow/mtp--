@@ -6,3 +6,6 @@ mtp++.pro.user
 *.o
 
 .DS_Store
+
+doc/
+
